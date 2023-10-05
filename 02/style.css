@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
 
 body {
     background: linear-gradient(180deg, rgba(69, 58, 101, 0.00) -14.89%, #0D216C 79.35%);
@@ -32,3 +32,144 @@ img {
     font-family: 'Martian Mono', monospace;
     font-size: 40px;
 }
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1583307709184-894b6db79627?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover ;
+}
+
+/* .container {
+    background-color:#ffffff10;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 30px;
+    width: 300px;
+    border: 2px solid #ffffff20;
+    backdrop-filter: blur(10px);
+} */
+
+/* #visor {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    margin: 0 auto; 
+    margin-bottom: 10px;
+    display: block; 
+}
+
+
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.numero,
+.operacao {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #723d09;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.numero:hover,
+.operacao:hover {
+    background-color: #5d370f;
+}
+
+p {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+ 
+
+} */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* html {
+    display: inline-block;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bobesponja.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.calculadora {
+    background-color: #ffffff36;
+    border-radius: 20px;
+    box-shadow: 10px 10px 14px 10px rgba(0, 0, 0, 0.473);
+}
+
+#visor {
+    padding: 12px;
+    font-size: 25px;
+    margin: 0 auto; 
+    margin-bottom: 4px;
+    display: block; 
+    border-radius: 10px;
+    border: none;
+    color: #2320207e;
+}
+
+
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: -10px;
+}
+
+.numero,
+.operacao {
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 200;
+    background-color: #ffffff7f;
+    color: #0b267f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.numero:hover,
+.operacao:hover {
+    background-color: #949393a0;
+}
+
+/* p {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    color: #dfffe3;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px;
+} */
