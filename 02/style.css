@@ -1,131 +1,59 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
-
-body {
-    background: linear-gradient(180deg, rgba(69, 58, 101, 0.00) -14.89%, #0D216C 79.35%);
-    height: 100vh;
-}
-
-.cabecalho {
-    text-align: center;
-}
-
-img {
-    margin-top: -80px;
-    width: 370px;
-}
-
-.calculadora {
-    background-color: #031657;
-    width: 371px;
-    height: 400px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
-.numero {
-    font-family: 'Martian Mono', monospace;
-    font-size: 40px;
-}
-
-.operacao {
-    font-family: 'Martian Mono', monospace;
-    font-size: 40px;
-}
-
-
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: url(https://images.unsplash.com/photo-1583307709184-894b6db79627?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
-    background-size: cover ;
-}
-
-/* .container {
-    background-color:#ffffff10;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    padding: 30px;
-    width: 300px;
-    border: 2px solid #ffffff20;
-    backdrop-filter: blur(10px);
-} */
-
-/* #visor {
-    width: 100%;
-    padding: 10px;
-    font-size: 24px;
-    margin: 0 auto; 
-    margin-bottom: 10px;
-    display: block; 
-}
-
-
-.teclado {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-}
-
-.numero,
-.operacao {
-    padding: 10px;
-    font-size: 18px;
-    background-color: #723d09;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.2s;
-}
-
-.numero:hover,
-.operacao:hover {
-    background-color: #5d370f;
-}
-
-p {
-    font-size: 30px;
-    color: white;
-    font-weight: 700;
- 
-
-} */ 
-
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins Bold', sans-serif;
 }
 
-/* html {
-    display: inline-block;
-} */
-
 body {
-    margin: 0;
-    padding: 0;
     display: flex;
+}
+
+.parteUm {
+    text-align: center;
     justify-content: center;
-    align-items: center;
-    background-image: url(bobesponja.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    display: flex;
+    background-color: #ffffff;
+    width: 50%;
+}
+
+.parteUm h1 {
+    color: #182b7c;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.parteUm p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.parteUm img {
+    margin-top: 20px;
+    width: 180px;
+}
+
+.container {
+    margin: 20px 80px;
+}
+
+.parteDois{
+    background-image: url(aguaviva.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 670px;
 }
 
 .calculadora {
-    background-color: #ffffff36;
+    border: #000000 1px solid;
+    margin: 40px 130px;
+    width: fit-content;
+    background-color: #ffffe3f5;
     border-radius: 20px;
-    box-shadow: 10px 10px 14px 10px rgba(0, 0, 0, 0.473);
+    box-shadow: 0px 0px 100px 30px rgba(228, 243, 13, 0.616);
 }
 
 #visor {
@@ -134,13 +62,15 @@ body {
     margin: 0 auto; 
     margin-bottom: 4px;
     display: block; 
-    border-radius: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
     border: none;
-    color: #2320207e;
+    color: #ffffff;
+    background-color: #474a9c;
 }
 
-
 .teclado {
+    border-radius: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: -10px;
@@ -150,26 +80,16 @@ body {
 .operacao {
     padding: 20px;
     font-size: 25px;
-    font-weight: 200;
-    background-color: #ffffff7f;
-    color: #0b267f;
+    font-weight: 600;
+    background-color: #ffffe3f5;
+    color: #1f1f1f;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.2s;
 }
 
 .numero:hover,
 .operacao:hover {
-    background-color: #949393a0;
+    background-color: #e9cc29a0;
 }
-
-/* p {
-    font-family: 'Sedgwick Ave Display', cursive;
-    font-weight: 400;
-    font-size: 50px;
-    color: #dfffe3;
-    display: flex;
-    justify-content: center;
-    margin: 25px 0px;
-} */

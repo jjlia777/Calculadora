@@ -7,44 +7,53 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="cabecalho">
-        <h1>Contanto Água-Viva</h1>
+
+    <div class="parteUm">
+        <div class="container">
+            <h1>CONTE ÁGUAS-VIVAS</h1>
+            <p>Some, Subtraia, Divida e Multiplique e ajude o Bob Esponja!</p>
+            <img src="bixo.png" alt="">
+
+            <div class="calculadora">
+                <input type="text" id="visor" disabled>
+        
+                <div class="teclado">
+                    <button class="numero" onclick="calculadora.adicionarNumero('7')">7</button>
+                    <button class="numero" onclick="calculadora.adicionarNumero('8')">8</button>
+                    <button class="numero" onclick="calculadora.adicionarNumero('9')">9</button>
+        
+                    <button class="operacao" onclick="calculadora.adicionarOperacao('/')">/</button>
+        
+                    <button class="numero" onclick="calculadora.adicionarNumero('4')">4</button>
+                    <button class="numero" onclick="calculadora.adicionarNumero('5')">5</button>
+                    <button class="numero" onclick="calculadora.adicionarNumero('6')">6</button>
+        
+                    <button class="operacao" onclick="calculadora.adicionarOperacao('*')">*</button>
+        
+                    <button class="numero" onclick="calculadora.adicionarNumero('1')">1</button>
+                    <button class="numero" onclick="calculadora.adicionarNumero('2')">2</button>
+                    <button class="numero" onclick="calculadora.adicionarNumero('3')">3</button>
+        
+                    <button class="operacao" onclick="calculadora.adicionarOperacao('-')">-</button>
+        
+                    <button class="numero" onclick="calculadora.adicionarNumero('0')">0</button>
+        
+                    <button class="operacao" onclick="calculadora.limpar()">C</button>
+        
+                    <button class="operacao" onclick="calculadora.adicionarOperacao('+')">+</button>
+        
+                    <button class="operacao" onclick="calculadora.resultado()">=</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="parteDois">
     </div>
 
     
-    <div class="calculadora">
-        <input type="text" id="visor" disabled>
-
-        <div class="teclado">
-            <button class="numero" onclick="calculadora.adicionarNumero('7')">7</button>
-            <button class="numero" onclick="calculadora.adicionarNumero('8')">8</button>
-            <button class="numero" onclick="calculadora.adicionarNumero('9')">9</button>
-
-            <button class="operacao" onclick="calculadora.adicionarOperacao('/')">/</button>
-
-            <button class="numero" onclick="calculadora.adicionarNumero('4')">4</button>
-            <button class="numero" onclick="calculadora.adicionarNumero('5')">5</button>
-            <button class="numero" onclick="calculadora.adicionarNumero('6')">6</button>
-
-            <button class="operacao" onclick="calculadora.adicionarOperacao('*')">*</button>
-
-            <button class="numero" onclick="calculadora.adicionarNumero('1')">1</button>
-            <button class="numero" onclick="calculadora.adicionarNumero('2')">2</button>
-            <button class="numero" onclick="calculadora.adicionarNumero('3')">3</button>
-
-            <button class="operacao" onclick="calculadora.adicionarOperacao('-')">-</button>
-
-            <button class="numero" onclick="calculadora.adicionarNumero('0')">0</button>
-
-            <button class="operacao" onclick="calculadora.limpar()">C</button>
-
-            <button class="operacao" onclick="calculadora.adicionarOperacao('+')">+</button>
-
-            <button class="operacao" onclick="calculadora.resultado()">=</button>
-        </div>
-
-
-    </div>
+    
     <script src="main.js"></script>
 </body>
 </html>
